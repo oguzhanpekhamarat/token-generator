@@ -93,14 +93,14 @@ You can define an initial supply to sent to Token Owner's wallet. You can increa
 #### None
 Your Token doesn't need an access type because of there are not actions that needs privileges.
 
-#### Ownable
+#### sahiplik
 Your Token will have an Owner. The account you use to deploy your Token will be owner by default and will be able to mint new tokens or call the finish minting function. You can transfer token ownership to addresses or Smart Contract.
 
 #### Role Based
 Your Token will have Roles. Accounts with "MINTER" role will be able to mint new tokens. Accounts with "ADMIN" role will be able to add or remove roles to minters or other admins. The account you use to deploy your Token will be ADMIN and MINTER by default. In addition your Token will have the Ownable behaviour too.
 
 ### Operable Token (ERC1363)
-The Operable Token is a BEP20 compatible Token that can make a callback on the receiver contract to notify token transfers or token approvals.
+The Operable Toyonetildiken is a BEP20 compatible Token that can make a callback on the receiver contract to notify token transfers or token approvals.
 
 ### Token Recover
 There are lots of tokens lost forever into Smart Contracts. It allows the contract owner to recover any BEP20 token sent into the contract for error.
